@@ -1,0 +1,15 @@
+2022/08/12-21:53:55.879 14fb Reusing MANIFEST /home/foundanerror/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/08/12-21:53:55.879 14fb Recovering log #62
+2022/08/12-21:53:55.880 14fb Reusing old log /home/foundanerror/.config/discord/Local Storage/leveldb/000062.log 
+2022/08/12-21:54:56.870 15c0 Level-0 table #66: started
+2022/08/12-21:54:56.873 15c0 Level-0 table #66: 19329 bytes OK
+2022/08/12-21:54:56.875 15c0 Delete type=0 #62
+2022/08/12-21:54:56.875 15c0 Compacting 4@0 + 1@1 files
+2022/08/12-21:54:56.909 15c0 Generated table #67@0: 63 keys, 2200457 bytes
+2022/08/12-21:54:56.909 15c0 Compacted 4@0 + 1@1 files => 2200457 bytes
+2022/08/12-21:54:56.910 15c0 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/08/12-21:54:56.910 15c0 Delete type=2 #63
+2022/08/12-21:54:56.910 15c0 Delete type=2 #58
+2022/08/12-21:54:56.911 15c0 Delete type=2 #66
+2022/08/12-21:54:56.911 15c0 Delete type=2 #60
+2022/08/12-21:54:56.911 15c0 Delete type=2 #55

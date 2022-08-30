@@ -1,0 +1,57 @@
+[2022-08-12 22:25:30.443] [exthost] [info] Extension host with pid 956 started
+[2022-08-12 22:25:30.443] [exthost] [info] Skipping acquiring lock for /home/foundanerror/.config/Code - OSS/User/workspaceStorage/bec29ea585b9d2b7ea4b91b3af2d3921.
+[2022-08-12 22:25:30.538] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-12 22:25:30.544] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-12 22:25:30.552] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-12 22:25:30.557] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-12 22:25:30.658] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-12 22:25:30.686] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-12 22:25:30.738] [exthost] [info] Eager extensions activated
+[2022-08-12 22:25:30.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 22:25:30.797] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 22:26:14.567] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-12 22:26:14.574] [exthost] [info] Extension host with pid 956 exiting with code 0
+[2022-08-12 22:26:16.460] [exthost] [info] Extension host with pid 1334 started
+[2022-08-12 22:26:16.460] [exthost] [info] Skipping acquiring lock for /home/foundanerror/.config/Code - OSS/User/workspaceStorage/c69e132df041dbcb05c033f8719b09cd.
+[2022-08-12 22:26:16.524] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-12 22:26:16.632] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-12 22:26:16.711] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-12 22:26:16.713] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-12 22:26:16.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-12 22:26:16.732] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-12 22:26:17.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-12 22:26:17.104] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-12 22:26:17.163] [exthost] [info] Eager extensions activated
+[2022-08-12 22:26:17.185] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 22:26:17.190] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 22:26:36.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 22:26:36.088] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 22:26:36.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 22:28:43.253] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-12 22:28:43.279] [exthost] [info] Extension host with pid 1334 exiting with code 0
+[2022-08-12 22:28:45.099] [exthost] [info] Extension host with pid 1908 started
+[2022-08-12 22:28:45.099] [exthost] [info] Skipping acquiring lock for /home/foundanerror/.config/Code - OSS/User/workspaceStorage/bec29ea585b9d2b7ea4b91b3af2d3921.
+[2022-08-12 22:28:45.210] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-12 22:28:45.214] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-12 22:28:45.216] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-12 22:28:45.223] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-12 22:28:45.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-12 22:28:45.465] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-12 22:28:45.524] [exthost] [info] Eager extensions activated
+[2022-08-12 22:28:45.541] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 22:28:45.545] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 22:33:57.923] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-12 22:33:57.929] [exthost] [info] Extension host with pid 1908 exiting with code 0
+[2022-08-12 22:33:59.600] [exthost] [info] Extension host with pid 3970 started
+[2022-08-12 22:33:59.600] [exthost] [info] Skipping acquiring lock for /home/foundanerror/.config/Code - OSS/User/workspaceStorage/c69e132df041dbcb05c033f8719b09cd.
+[2022-08-12 22:33:59.665] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-12 22:33:59.743] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-12 22:33:59.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-12 22:33:59.810] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-12 22:33:59.813] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-12 22:33:59.823] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-12 22:34:00.140] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-12 22:34:00.157] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-12 22:34:00.210] [exthost] [info] Eager extensions activated
+[2022-08-12 22:34:00.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 22:34:00.234] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

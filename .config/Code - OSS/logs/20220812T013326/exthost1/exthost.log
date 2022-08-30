@@ -1,0 +1,18 @@
+[2022-08-12 01:33:28.898] [exthost] [info] Extension host with pid 26211 started
+[2022-08-12 01:33:28.898] [exthost] [info] Skipping acquiring lock for /home/foundanerror/.config/Code - OSS/User/workspaceStorage/c69e132df041dbcb05c033f8719b09cd.
+[2022-08-12 01:33:28.982] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-12 01:33:29.067] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-12 01:33:29.150] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-12 01:33:29.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-12 01:33:29.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-12 01:33:29.168] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-12 01:33:29.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-12 01:33:29.587] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-12 01:33:29.674] [exthost] [info] Eager extensions activated
+[2022-08-12 01:33:29.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 01:33:29.703] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 01:33:41.725] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 01:33:41.727] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 01:33:41.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 01:33:45.369] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-12 01:33:45.387] [exthost] [info] Extension host with pid 26211 exiting with code 0

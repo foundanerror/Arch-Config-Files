@@ -1,0 +1,10 @@
+[2022-08-12 21:33:51.094] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-08-12 21:33:51.095] [renderer1] [critical] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookWorkspaceEdit, notebookDebugOptions, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-08-12 21:33:51.131] [renderer1] [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+[2022-08-12 22:13:05.122] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-12 22:13:05.618] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-12 22:13:06.551] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-12 22:13:06.661] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-12 22:14:19.021] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-12 22:14:19.026] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-12 22:14:19.043] [renderer1] [info] Webgl lost context, disposing of webgl renderer

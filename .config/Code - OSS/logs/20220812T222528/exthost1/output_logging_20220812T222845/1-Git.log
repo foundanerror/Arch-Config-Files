@@ -1,0 +1,61 @@
+[2022-08-13T02:28:45.501Z] Log level: Info
+[2022-08-13T02:28:45.502Z] [info] Validating found git in: git
+[2022-08-13T02:28:45.513Z] [info] Using git 2.37.1 from git
+[2022-08-13T02:28:45.525Z] > git rev-parse --show-toplevel [3ms]
+[2022-08-13T02:28:45.526Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.534Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.534Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.549Z] > git rev-parse --show-toplevel [10ms]
+[2022-08-13T02:28:45.549Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.559Z] > git rev-parse --show-toplevel [6ms]
+[2022-08-13T02:28:45.559Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.564Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.564Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.568Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.568Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.577Z] > git rev-parse --show-toplevel [5ms]
+[2022-08-13T02:28:45.577Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.581Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.581Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.585Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.585Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.590Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.590Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.593Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.593Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.597Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.597Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.601Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.601Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.604Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.604Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.608Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.608Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.611Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.611Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.615Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.615Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.619Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.619Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.623Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.623Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.626Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.626Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.629Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.629Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.632Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.632Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.635Z] > git rev-parse --show-toplevel [0ms]
+[2022-08-13T02:28:45.635Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.639Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.639Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.642Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.642Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.645Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.645Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.648Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.648Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:28:45.651Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-13T02:28:45.651Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-13T02:29:03.699Z] > git rev-parse --show-toplevel [4ms]
+[2022-08-13T02:29:03.699Z] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,92 @@
+Code - OSS (1.70.0, undefined, desktop)
+Jupyter Extension Version: 2022.8.1002170547.
+Python Extension Version: 2022.12.0.
+Workspace folder /home/foundanerror/Documents/Learning Python
+info 1:8:23.347: ZMQ install verified.
+error 1:8:23.715: Failure during activation. [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:68123)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:52770)
+	at new f (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:2:308606)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395108)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395964
+	at Array.map (<anonymous>)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395936
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1394882)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at Object.t.resolve (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397309)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380722
+	at e._get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380488)
+	at e.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1379131)
+	at a.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:48723)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:2933890]
+error 1:8:23.727: sendStartupTelemetry() failed. [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:68123)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:52770)
+	at new f (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:2:308606)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395108)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395964
+	at Array.map (<anonymous>)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395936
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1394882)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at Object.t.resolve (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397309)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380722
+	at e._get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380488)
+	at e.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1379131)
+	at a.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:48723)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:2933890]
+error 1:8:23.727: extension activation failed [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:68123)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:52770)
+	at new f (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:2:308606)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395108)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395964
+	at Array.map (<anonymous>)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395936
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1394882)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at Object.t.resolve (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397309)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380722
+	at e._get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380488)
+	at e.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1379131)
+	at a.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:48723)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:2933890]
+error 1:8:23.728: Failed to active the Jupyter Extension [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:68123)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:52770)
+	at new f (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:2:308606)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395108)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395964
+	at Array.map (<anonymous>)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1395936
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1394882)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397046
+	at Object.t.resolve (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1397309)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380722
+	at e._get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1380488)
+	at e.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:1379131)
+	at a.get (/home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:48723)
+	at /home/foundanerror/.vscode-oss/extensions/ms-toolsai.jupyter-2022.8.1002170547/out/extension.node.js:17:2933890]
+info 1:8:33.622: Shutting down notebooks for 1e7fffb3-100c-4f88-82a8-2f21534e6389
+info 1:8:33.622: Disposing HostJupyterExecution a612656c-e8b5-4a39-a321-252772d08cb9
+info 1:8:33.622: Disposing super HostJupyterExecution a612656c-e8b5-4a39-a321-252772d08cb9
+info 1:8:33.622: Disposing HostJupyterExecution a612656c-e8b5-4a39-a321-252772d08cb9
+info 1:8:33.622: Finished disposing HostJupyterExecution  a612656c-e8b5-4a39-a321-252772d08cb9
+info 1:8:33.623: Cleaning up server cache a612656c-e8b5-4a39-a321-252772d08cb9
+info 1:8:33.624: Finished disposing HostJupyterExecution  a612656c-e8b5-4a39-a321-252772d08cb9

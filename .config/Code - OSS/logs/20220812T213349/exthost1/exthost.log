@@ -1,0 +1,16 @@
+[2022-08-12 21:33:51.640] [exthost] [info] Extension host with pid 1252 started
+[2022-08-12 21:33:51.640] [exthost] [info] Skipping acquiring lock for /home/foundanerror/.config/Code - OSS/User/workspaceStorage/bec29ea585b9d2b7ea4b91b3af2d3921.
+[2022-08-12 21:33:51.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-12 21:33:51.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-12 21:33:51.727] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-12 21:33:51.731] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-12 21:33:51.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-12 21:33:51.844] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-12 21:33:51.910] [exthost] [info] Eager extensions activated
+[2022-08-12 21:33:51.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 21:33:51.945] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-12 21:39:39.464] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 21:39:39.470] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 21:39:39.495] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-12 22:14:22.410] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-08-12 22:14:22.420] [exthost] [info] Extension host with pid 1252 exiting with code 0

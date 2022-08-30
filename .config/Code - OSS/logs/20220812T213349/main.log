@@ -1,0 +1,9 @@
+[2022-08-12 21:33:49.671] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-08-12 21:33:51.056] [main] [info] Starting extension host with pid 1252 (fork() took 8 ms).
+[2022-08-12 22:12:19.049] [main] [info] Enabling inspect port on extension host with pid 1252.
+[2022-08-12 22:12:19.857] [main] [info] Enabling inspect port on extension host with pid 1252.
+[2022-08-12 22:13:04.668] [main] [info] Enabling inspect port on extension host with pid 1252.
+[2022-08-12 22:13:05.101] [main] [info] Enabling inspect port on extension host with pid 1252.
+[2022-08-12 22:14:10.747] [main] [error] CodeWindow: detected unresponsive
+[2022-08-12 22:14:22.348] [main] [info] Waiting for extension host with pid 1252 to exit.
+[2022-08-12 22:14:22.497] [main] [info] Extension host with pid 1252 exited with code: 0, signal: null.

@@ -1,0 +1,8 @@
+2022/08/12-21:56:55.275 18f5 Reusing MANIFEST /home/foundanerror/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/08/12-21:56:55.275 18f5 Recovering log #65
+2022/08/12-21:56:55.277 18f5 Level-0 table #69: started
+2022/08/12-21:56:55.294 18f5 Level-0 table #69: 1090406 bytes OK
+2022/08/12-21:56:55.296 18f5 Delete type=0 #65
+2022/08/12-21:57:55.844 18f2 Level-0 table #72: started
+2022/08/12-21:57:55.846 18f2 Level-0 table #72: 19097 bytes OK
+2022/08/12-21:57:55.848 18f2 Delete type=0 #70

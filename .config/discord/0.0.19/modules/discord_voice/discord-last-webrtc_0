@@ -1,0 +1,328 @@
+[2022-08-12 21:53:57.986] [5480] (engine.cpp:239): Time: Fri Aug 12 21:53:57 2022 EDT logLevel:2
+[2022-08-12 21:53:57.992] [5480] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-08-12 21:53:57.993] [5480] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-08-12 21:53:57.994] [5480] (audio_device_impl.cc:83): Create
+[2022-08-12 21:53:57.994] [5480] (audio_device_impl.cc:91): CreateForTest
+[2022-08-12 21:53:57.994] [5480] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:133): CheckPlatform
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:144): current platform is Linux
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:992): PlatformAudioLayer
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:299): PulseAudio support is enabled.
+[2022-08-12 21:53:57.995] [5480] (audio_mixer_manager_pulse_linux.cc:57): AudioMixerManagerLinuxPulse created
+[2022-08-12 21:53:57.995] [5480] (audio_device_pulse_linux.cc:81): AudioDeviceLinuxPulse created
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:304): Linux PulseAudio APIs will be utilized
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:345): AttachAudioBuffer
+[2022-08-12 21:53:57.995] [5480] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2022-08-12 21:53:57.995] [5480] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2022-08-12 21:53:57.995] [5480] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2022-08-12 21:53:57.995] [5480] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:355): ActiveAudioLayer
+[2022-08-12 21:53:57.995] [5480] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-08-12 21:53:57.995] [5480] (audio_engine.cpp:482): Creating audio engine: standard
+[2022-08-12 21:53:57.995] [5480] (audio_device_impl.cc:365): Init
+[2022-08-12 21:53:57.998] [5480] (audio_device_pulse_linux.cc:1610): failed to connect context, error=-1
+[2022-08-12 21:53:57.998] [5480] (audio_device_pulse_linux.cc:144): failed to initialize PulseAudio
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:374): Audio device initialization failed.
+[2022-08-12 21:53:57.998] [5480] (audio_coding.cpp:143): Using software Opus decoder
+[2022-08-12 21:53:57.998] [5480] (audio_coding.cpp:160): Using software Opus encoder
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:896): RegisterAudioCallback
+[2022-08-12 21:53:57.998] [5480] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2022-08-12 21:53:57.998] [5480] (audio_engine.cpp:197): Setting audio input device: 'default'
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:579): SetStereoRecording(0)
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-08-12 21:53:57.998] [5480] (audio_engine.cpp:209): Setting audio output device: 'default'
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:625): SetStereoPlayout(0)
+[2022-08-12 21:53:57.998] [5480] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2022-08-12 21:53:57.998] [5480] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-08-12 21:53:58.007] [5480] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-08-12 21:53:58.007] [5480] (agc_manager_direct.cc:69): [agc] GetMinMicLevel
+[2022-08-12 21:53:58.007] [5480] (agc_manager_direct.cc:73): [agc] Using default min mic level: 12
+[2022-08-12 21:53:58.007] [5480] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2022-08-12 21:53:58.007] [5480] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-08-12 21:53:58.205] [5480] (audio_engine.cpp:197): Setting audio input device: 'default'
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:579): SetStereoRecording(0)
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-08-12 21:53:58.205] [5480] (audio_engine.cpp:209): Setting audio output device: 'default'
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-08-12 21:53:58.205] [5480] (audio_device_impl.cc:625): SetStereoPlayout(0)
+[2022-08-12 21:53:58.206] [5480] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-08-12 21:53:58.211] [5456] (discord.cpp:517): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 141471, Version Hash: 8b6078fde0d0e726607ba343005232983c4ba674"]
+[2022-08-12 21:53:58.274] [5456] (discord.cpp:517): JS console: ["%c[default]","[NATIVE INFO] host 0.0.19, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_game_utils: 1, discord_rpc: 1"]
+[2022-08-12 21:53:58.351] [5456] (discord.cpp:517): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2022-08-12 21:53:58.436] [5456] (discord.cpp:517): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2022-08-12 21:53:58.793] [5456] (discord.cpp:517): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discord.com/assets/99bca8736e3709d8d43a.js:5745:330)\n    at Vn (https://discord.com/assets/99bca8736e3709d8d43a.js:5771:696)\n    at Kn (https://discord.com/assets/99bca8736e3709d8d43a.js:5774:356)\n    at Wn (https://discord.com/assets/99bca8736e3709d8d43a.js:5774:199)\n    at jn (https://discord.com/assets/99bca8736e3709d8d43a.js:5773:886)\n    at zn (https://discord.com/assets/99bca8736e3709d8d43a.js:5774:697)\n    at Xn (https://discord.com/assets/99bca8736e3709d8d43a.js:5774:731)\n    at i (https://discord.com/assets/99bca8736e3709d8d43a.js:5741:961)\n    at Object.962314 (https://discord.com/assets/a3c1d908fcee046f5700.js:1816:332)\n    at l (https://discord.com/assets/8cb2a51e44237e74ed2d.js:1:154)\n    at Object.72840 (https://discord.com/assets/a3c1d908fcee046f5700.js:1656:772)\n    at l (https://discord.com/assets/8cb2a51e44237e74ed2d.js:1:154)\n    at Object.900993 (https://discord.com/assets/a3c1d908fcee046f5700.js:64:163)\n    at l (https://discord.com/assets/8cb2a51e44237e74ed2d.js:1:154)\n    at Object.101327 (https://discord.com/assets/a3c1d908fcee046f5700.js:176:57)\n    at l (https://discord.com/assets/8cb2a51e44237e74ed2d.js:1:154)\n    at Object.206566 (https://discord.com/assets/a3c1d908fcee046f5700.js:182:912)\n    at l (https://discord.com/assets/8cb2a51e44237e74ed2d.js:1:154)\n    at Object.998872 (https://discord.com/assets/90f2a8531197052f8972.js:225:237)\n    at Function.l (https://discord.com/assets/8cb2a51e44237e74ed2d.js:1:154)"]
+[2022-08-12 21:53:58.932] [5456] (discord.cpp:517): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2022-08-12 21:53:58.993] [5456] (discord.cpp:517): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2022-08-12 21:53:59.736] [5456] (discord.cpp:517): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2022-08-12 21:53:59.736] [5456] (discord.cpp:517): JS console: ["[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2022-08-12 21:53:59.737] [5456] (discord.cpp:517): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
+[2022-08-12 21:53:59.737] [5456] (discord.cpp:517): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2022-08-12 21:53:59.737] [5456] (discord.cpp:517): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2022-08-12 21:53:59.745] [5456] (discord.cpp:517): JS console: ["%c[GatewaySocket]","[HELLO] via [\"gateway-prd-main-kz0t\",{\"micros\":0.0}], heartbeat interval: 41250, took 8 ms"]
+[2022-08-12 21:53:59.762] [5456] (discord.cpp:517): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2022-08-12 21:53:59.764] [5456] (discord.cpp:517): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2022-08-12 21:53:59.942] [5456] (discord.cpp:517): JS console: ["The vm module of Node.js is deprecated in the renderer process and will be removed."]
+[2022-08-12 21:54:00.102] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Injecting BD Styles"]
+[2022-08-12 21:54:00.104] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing DataStore"]
+[2022-08-12 21:54:00.108] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing LocaleManager"]
+[2022-08-12 21:54:00.114] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Performing incompatibility checks"]
+[2022-08-12 21:54:00.114] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Getting update information"]
+[2022-08-12 21:54:00.115] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing Settings"]
+[2022-08-12 21:54:00.116] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing DOMManager"]
+[2022-08-12 21:54:00.117] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Waiting for connection..."]
+[2022-08-12 21:54:00.835] [5456] (discord.cpp:517): JS console: ["%c[GatewaySocket]","[READY] took 1099ms, via [\"gateway-prd-main-kz0t\",{\"micros\":613859,\"calls\":[\"id_created\",{\"micros\":2443,\"calls\":[]},\"session_lookup_time\",{\"micros\":286,\"calls\":[]},\"session_lookup_finished\",{\"micros\":15,\"calls\":[]},\"discord-sessions-green-prd-2-152\",{\"micros\":583327,\"calls\":[\"start_session\",{\"micros\":195490,\"calls\":[\"discord-api-7f7b9b9678-79b5q\",{\"micros\":169233,\"calls\":[\"get_user\",{\"micros\":14364},\"add_authorized_ip\",{\"micros\":76820},\"get_guilds\",{\"micros\":34940},\"user_settings_proto\",{\"micros\":209},\"relationships\",{\"micros\":17367},\"friend_suggestion\",{\"micros\":93},\"connections\",{\"micros\":366},\"serialized_read_states\",{\"micros\":8},\"pending_payments\",{\"micros\":2},\"send_scheduled_deleteion_message\",{\"micros\":2},\"sanitize_premium_perks\",{\"micros\":2},\"guild_join_requests\",{\"micros\":2},\"user_guild_settings\",{\"micros\":2},\"serialized_private_channels\",{\"micros\":9582},\"experiments\",{\"micros\":7464},\"affine_user_ids\",{\"micros\":9},\"required_action\",{\"micros\":3}]}]},\"starting_guild_connect\",{\"micros\":125,\"calls\":[]},\"presence_started\",{\"micros\":407,\"calls\":[]},\"guilds_started\",{\"micros\":349751,\"calls\":[]},\"guilds_connect\",{\"micros\":4517,\"calls\":[]},\"presence_connect\",{\"micros\":1,\"calls\":[]},\"connect_finished\",{\"micros\":4550,\"calls\":[]},\"build_ready\",{\"micros\":22526,\"calls\":[]},\"optimize_ready\",{\"micros\":9747,\"calls\":[]},\"split_ready\",{\"micros\":728,\"calls\":[]},\"clean_ready\",{\"micros\":0,\"calls\":[]}]}]}] as 9448481545e90affb4d333ada90fc7e5"]
+[2022-08-12 21:54:00.895] [5456] (discord.cpp:517): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2022-08-12 21:54:00.955] [5456] (discord.cpp:517): JS console: ["%c[Spotify]","WS Connecting"]
+[2022-08-12 21:54:00.957] [5456] (discord.cpp:517): JS console: ["%c[Spotify]","Added account: fy9evbxoaqz168dm579gi7qz5"]
+[2022-08-12 21:54:00.994] [5456] (discord.cpp:517): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2022-08-12 21:54:01.010] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:01.020] [5456] (discord.cpp:517): JS console: ["%c[Flux]","Slow dispatch on CONNECTION_OPEN: 127ms"]
+[2022-08-12 21:54:01.361] [5456] (discord.cpp:517): JS console: ["%c[Flux]","Slow batch emitChanges took 337ms recentActions:",""]
+[2022-08-12 21:54:01.363] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing ReactComponents"]
+[2022-08-12 21:54:01.364] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing ComponentPatcher"]
+[2022-08-12 21:54:01.383] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing Editor"]
+[2022-08-12 21:54:01.515] [5456] (discord.cpp:517): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1779ms"]
+[2022-08-12 21:54:01.806] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing Builtins"]
+[2022-08-12 21:54:01.806] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Custom CSS]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Enabled"]
+[2022-08-12 21:54:01.807] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Custom CSS]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Starting to watch content."]
+[2022-08-12 21:54:01.808] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Enabled"]
+[2022-08-12 21:54:01.833] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","TwitchGlobal"]
+[2022-08-12 21:54:01.835] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [PublicServers]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Enabled"]
+[2022-08-12 21:54:01.839] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Loading Plugins"]
+[2022-08-12 21:54:01.840] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [PluginManager]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Starting to watch plugin addons."]
+[2022-08-12 21:54:01.840] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Loading Themes"]
+[2022-08-12 21:54:01.843] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [ThemeManager]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Starting to watch theme addons."]
+[2022-08-12 21:54:01.844] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Removing Loading Icon"]
+[2022-08-12 21:54:01.844] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Collecting Startup Errors"]
+[2022-08-12 21:54:02.150] [5456] (discord.cpp:517): JS console: ["%c[Spotify]","WS Connected"]
+[2022-08-12 21:54:02.300] [5456] (discord.cpp:517): JS console: ["%c[Spotify]","Devices updated for fy9evbxoaqz168dm579gi7qz5:","[object Object]"]
+[2022-08-12 21:54:02.319] [5456] (discord.cpp:517): JS console: ["%c[Spotify]","Profile updated for fy9evbxoaqz168dm579gi7qz5: isPremium = false"]
+[2022-08-12 21:54:02.776] [5456] (discord.cpp:517): JS console: ["%c[Flux]","Slow batch emitChanges took 104ms recentActions:",""]
+[2022-08-12 21:54:02.776] [5456] (discord.cpp:517): JS console: ["%c[Flux]","Slow dispatch on WINDOW_FOCUS: 105.70000000018626ms"]
+[2022-08-12 21:54:02.836] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","BTTV"]
+[2022-08-12 21:54:03.941] [5456] (discord.cpp:517): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","FrankerFaceZ"]
+[2022-08-12 21:54:04.014] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:07.018] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:10.019] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:10.388] [5456] (discord.cpp:517): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is us-east"]
+[2022-08-12 21:54:13.023] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:16.026] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:17.311] [5456] (discord.cpp:517): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2022-08-12 21:54:19.031] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:22.035] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:23.462] [5456] (discord.cpp:517): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating status with delay 0"]
+[2022-08-12 21:54:23.475] [5456] (discord.cpp:517): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Scheduling save from markDirty"]
+[2022-08-12 21:54:23.483] [5456] (discord.cpp:517): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Persisting proto"]
+[2022-08-12 21:54:25.038] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:26.793] [5480] (bitrate_prober.cc:72): Bandwidth probing enabled, set to inactive
+[2022-08-12 21:54:26.793] [5480] (cpu_info.cc:53): Available number of cores: 6
+[2022-08-12 21:54:26.793] [5480] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2022-08-12 21:54:26.793] [5480] (remote_bitrate_estimator_single_stream.cc:72): RemoteBitrateEstimatorSingleStream: Instantiating.
+[2022-08-12 21:54:26.793] [5480] (remote_estimator_proxy.cc:50): Maximum interval between transport feedback RTCP messages (ms): 250
+[2022-08-12 21:54:26.794] [5480] (paced_sender.cc:186): ProcessThreadAttached 0xec9da00
+[2022-08-12 21:54:26.795] [5480] (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+[2022-08-12 21:54:26.795] [5480] (decision_logic.cc:66): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+[2022-08-12 21:54:26.795] [5480] (neteq_impl.cc:170): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=false, enable_rtx_handling=false, extra_output_delay_ms=0
+[2022-08-12 21:54:26.795] [5480] (audio_coding_module.cc:226): Created
+[2022-08-12 21:54:26.796] [5480] (audio_send_stream.cc:162): AudioSendStream: 1
+[2022-08-12 21:54:26.796] [5480] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 1, extmap-allow-mixed: false, extensions: [], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 0, format: {name: pcmu, clockrate_hz: 8000, num_channels: 1, parameters: {}}}}
+[2022-08-12 21:54:26.796] [5480] (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to up
+[2022-08-12 21:54:26.796] [5612] (rtp_transport_controller_send.cc:599): Creating fallback congestion controller
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:889): Recording
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:808): InitRecording
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:448): MicrophoneIsInitialized
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:404): InitMicrophone
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:889): Recording
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:808): InitRecording
+[2022-08-12 21:54:26.796] [5480] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-08-12 21:54:26.796] [5480] (bitrate_prober.cc:72): Bandwidth probing enabled, set to inactive
+[2022-08-12 21:54:26.796] [5612] (alr_experiment.cc:79): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR bandwidth usage percent: 80, ALR start budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+[2022-08-12 21:54:26.797] [5612] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2022-08-12 21:54:26.797] [5612] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2022-08-12 21:54:26.797] [5612] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2022-08-12 21:54:26.797] [5480] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2022-08-12 21:54:26.797] [5480] (remote_bitrate_estimator_single_stream.cc:72): RemoteBitrateEstimatorSingleStream: Instantiating.
+[2022-08-12 21:54:26.797] [5480] (remote_estimator_proxy.cc:50): Maximum interval between transport feedback RTCP messages (ms): 250
+[2022-08-12 21:54:26.797] [5480] (paced_sender.cc:186): ProcessThreadAttached 0xec9d3c0
+[2022-08-12 21:54:26.797] [5480] (delay_manager.cc:85): Delay manager config: quantile=0.97 forget_factor=0.9993 start_forget_weight=2 resample_interval_ms=0 max_history_ms=2000
+[2022-08-12 21:54:26.797] [5480] (decision_logic.cc:66): NetEq decision logic settings: estimate_dtx_delay=0 time_stretch_cn=0 target_level_window_ms=100
+[2022-08-12 21:54:26.797] [5480] (neteq_impl.cc:170): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=false, enable_rtx_handling=false, extra_output_delay_ms=0
+[2022-08-12 21:54:26.797] [5480] (audio_coding_module.cc:226): Created
+[2022-08-12 21:54:26.797] [5480] (audio_send_stream.cc:162): AudioSendStream: 1
+[2022-08-12 21:54:26.797] [5480] (audio_send_stream.cc:229): AudioSendStream::ConfigureStream: {rtp: {ssrc: 1, extmap-allow-mixed: false, extensions: [], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 0, format: {name: pcmu, clockrate_hz: 8000, num_channels: 1, parameters: {}}}}
+[2022-08-12 21:54:26.797] [5480] (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to up
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:889): Recording
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:808): InitRecording
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:448): MicrophoneIsInitialized
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:404): InitMicrophone
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:889): Recording
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:808): InitRecording
+[2022-08-12 21:54:26.797] [5480] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-08-12 21:54:26.797] [5616] (rtp_transport_controller_send.cc:599): Creating fallback congestion controller
+[2022-08-12 21:54:26.797] [5616] (alr_experiment.cc:79): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR bandwidth usage percent: 80, ALR start budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+[2022-08-12 21:54:26.797] [5616] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2022-08-12 21:54:26.797] [5616] (trendline_estimator.cc:188): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:20 and no network state predictor
+[2022-08-12 21:54:26.797] [5616] (aimd_rate_control.cc:117): Using aimd rate control with back off factor 0.85
+[2022-08-12 21:54:26.797] [5616] (delay_based_bwe.cc:117): Initialized DelayBasedBwe with separate audio overuse detectionenabled:false,packet_threshold:10,time_threshold:1 s and alr limited backoff disabled
+[2022-08-12 21:54:26.797] [5612] (delay_based_bwe.cc:117): Initialized DelayBasedBwe with separate audio overuse detectionenabled:false,packet_threshold:10,time_threshold:1 s and alr limited backoff disabled
+[2022-08-12 21:54:26.797] [5612] (delay_based_bwe.cc:378): BWE Setting start bitrate to: 300 kbps
+[2022-08-12 21:54:26.797] [5616] (delay_based_bwe.cc:378): BWE Setting start bitrate to: 300 kbps
+[2022-08-12 21:54:26.797] [5612] (probe_controller.cc:280): Measured bitrate: 300000 Minimum to probe further: 1260000
+[2022-08-12 21:54:26.797] [5612] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (900000:1688:5)
+[2022-08-12 21:54:26.797] [5612] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (1800000:3375:5)
+[2022-08-12 21:54:26.797] [5612] (bitrate_allocator.cc:394): Current BWE 300000
+[2022-08-12 21:54:26.797] [5616] (probe_controller.cc:280): Measured bitrate: 300000 Minimum to probe further: 1260000
+[2022-08-12 21:54:26.797] [5616] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (900000:1688:5)
+[2022-08-12 21:54:26.797] [5616] (bitrate_prober.cc:114): Probe cluster (bitrate:min bytes:min packets): (1800000:3375:5)
+[2022-08-12 21:54:26.797] [5480] (call.cc:1168): UpdateAggregateNetworkState: aggregate_state change to down
+[2022-08-12 21:54:26.798] [5480] (audio_send_stream.cc:178): ~AudioSendStream: 1
+[2022-08-12 21:54:26.797] [5616] (bitrate_allocator.cc:394): Current BWE 300000
+[2022-08-12 21:54:26.798] [5612] (pacing_controller.cc:162): PacedSender paused.
+[2022-08-12 21:54:26.798] [5612] (control_handler.cc:78): Bitrate estimate state changed, BWE: 300 kbps.
+[2022-08-12 21:54:26.798] [5480] (paced_sender.cc:186): ProcessThreadAttached 0x0
+[2022-08-12 21:54:26.798] [5480] (paced_sender.cc:186): ProcessThreadAttached 0x0
+[2022-08-12 21:54:27.798] [5616] (probe_controller.cc:378): kWaitingForProbingResult: timeout
+[2022-08-12 21:54:28.042] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:31.046] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:34.050] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:37.053] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:40.057] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:43.058] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:46.063] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:49.066] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:52.067] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:55.068] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:54:58.072] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:01.074] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:04.078] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:07.082] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:10.084] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:13.089] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:16.093] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:19.096] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:22.098] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:25.101] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:28.105] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:31.109] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:34.114] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:37.117] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:40.122] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:43.127] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:46.131] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:49.135] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:52.136] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:55.139] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:55:58.144] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:01.148] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:04.151] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:07.155] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:10.159] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:13.162] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:16.162] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:19.165] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:22.170] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:25.174] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:28.179] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:31.184] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:34.187] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:37.191] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:40.193] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:43.194] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:46.198] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:49.202] [5481] (device_info_linux.cc:45): NumberOfDevices
+[2022-08-12 21:56:51.711] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.711] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.712] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.712] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.712] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.712] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.712] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.712] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.712] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.713] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.714] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.715] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.716] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.717] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.718] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.718] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
+[2022-08-12 21:56:51.718] [5456] (discord.cpp:517): JS console: ["Window state not initialized","window-1"]
